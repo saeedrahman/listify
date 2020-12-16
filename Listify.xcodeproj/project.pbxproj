@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1264D90B2589C9080038E189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264D90A2589C9080038E189 /* AppDelegate.swift */; };
 		1264D90D2589C9080038E189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264D90C2589C9080038E189 /* SceneDelegate.swift */; };
-		1264D90F2589C9080038E189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264D90E2589C9080038E189 /* ViewController.swift */; };
+		1264D90F2589C9080038E189 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264D90E2589C9080038E189 /* TasksViewController.swift */; };
 		1264D9122589C9080038E189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1264D9102589C9080038E189 /* Main.storyboard */; };
 		1264D9142589C9090038E189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1264D9132589C9090038E189 /* Assets.xcassets */; };
 		1264D9172589C9090038E189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1264D9152589C9090038E189 /* LaunchScreen.storyboard */; };
+		1264D9212589CC620038E189 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264D9202589CC620038E189 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1264D9072589C9080038E189 /* Listify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Listify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1264D90A2589C9080038E189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1264D90C2589C9080038E189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1264D90E2589C9080038E189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1264D90E2589C9080038E189 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		1264D9112589C9080038E189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1264D9132589C9090038E189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1264D9162589C9090038E189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1264D9182589C90A0038E189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1264D9202589CC620038E189 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				1264D90A2589C9080038E189 /* AppDelegate.swift */,
 				1264D90C2589C9080038E189 /* SceneDelegate.swift */,
-				1264D90E2589C9080038E189 /* ViewController.swift */,
+				1264D90E2589C9080038E189 /* TasksViewController.swift */,
+				1264D9202589CC620038E189 /* AddTaskViewController.swift */,
 				1264D9102589C9080038E189 /* Main.storyboard */,
 				1264D9132589C9090038E189 /* Assets.xcassets */,
 				1264D9152589C9090038E189 /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1264D90F2589C9080038E189 /* ViewController.swift in Sources */,
+				1264D90F2589C9080038E189 /* TasksViewController.swift in Sources */,
+				1264D9212589CC620038E189 /* AddTaskViewController.swift in Sources */,
 				1264D90B2589C9080038E189 /* AppDelegate.swift in Sources */,
 				1264D90D2589C9080038E189 /* SceneDelegate.swift in Sources */,
 			);
